@@ -1,20 +1,25 @@
 console.log("Seja bem vindo!!!") 
- 
-switch(calculadora){
+
+let n1 = Number(prompt("Escolha um numero: "));
+let n2 = Number(prompt("Escolha outro numero: "));
+let opcao = Number(prompt("Escolha um recurso: "));
+
+
+switch(opcao){
     case 1:
-        console.log(a+b);
+        console.log(`O resultado é ${n1+n2}`);
         break;
 
     case 2:
-        console.log(a-b)
+        console.log(`O resultado é ${n1-n2}`)
         break;
 
     case 3:
-        console.log(a*b)
+        console.log(`O resultado é ${n1*n2}`)
         break;
 
     case 4:
-         console.log(a/b)
+         console.log(`O resultado é ${n1/n2}`)
          break;
 
     default:
@@ -22,13 +27,5 @@ switch(calculadora){
 }
 
 
-
-
-
-
-//const soma = (a,b) => a+b
-//const sub = (a,b) => a-b
-//const mult = (a,b) => a*b
-//const div = (a,b) => a/b
 
 
