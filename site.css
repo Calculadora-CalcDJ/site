@@ -4,11 +4,24 @@
 }
 
 #header{
-    width: 3000px;
-    height: 1500px;
+    width: 2000px;
+    height: 100px;
     background-color:  rgb(70,130,180);
+    
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(126, 193, 234);
+    text-align: center;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
 }
 
 body{
-    background-color: rgb(135,206,250);
+    background-color: rgb(126, 193, 234);
+
 }
