@@ -6,22 +6,34 @@
 #header{
     width: 2000px;
     height: 100px;
-    background-color:  rgb(70,130,180);
+    background-image: linear-gradient(180deg,rgba(50, 54, 176, 0.852), rgb(134, 182, 255)); 
     
 }
 
 h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(126, 193, 234);
-    text-align: center;
+.jersey-25-regular; 
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 90px;
+  color: rgb(209, 220, 255);
 }
 
-h2{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:aliceblue;
+}
+
+#h2{
+    font-family:"Jersey 25", sans-serif;
+    color: #fff;
+}
+
+#bot{
+    background-color: rgba(0, 0, 0, 0.434);
+    font-family: "Jersey 25", sans-serif;
+    color: #fff;
 }
 
 body{
-    background-color: rgb(126, 193, 234);
-
+    background-image: linear-gradient(360deg,rgb(45, 50, 173), rgb(134, 182, 255));
+    height:100vh;
 }
