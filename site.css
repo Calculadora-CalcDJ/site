@@ -20,11 +20,10 @@ h1{
   color: rgb(209, 220, 255);
 }
 
-}
-
 #h2{
     font-family:"Jersey 25", sans-serif;
-    color: #fff;
+    color: #e0e8ff;
+    font-size: 55px;
 }
 
 #bot{
